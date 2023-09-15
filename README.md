@@ -16,7 +16,8 @@
 #### 1) В корне проекта создать .env.dev и прописать свои настройки
 
     DEBUG=1
-    SECRET_KEY=SECRET_KEY 
+    SECRET_KEY=SECRET_KEY
+    DJANGO_ALLOWED_HOST=localhost
     
     # Data Base
     POSTGRES_DB=имя_твоей_бд

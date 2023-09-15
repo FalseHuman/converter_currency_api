@@ -24,20 +24,10 @@ class CurrencyConverter(viewsets.ViewSet):
                             required=True, 
                             type=str
             ),
-        ],
-    )
-
-    @extend_schema(
-        parameters=[
             OpenApiParameter(name='to', 
                             required=True, 
                             type=str
             ),
-        ],
-    )
-    
-    @extend_schema(
-        parameters=[
             OpenApiParameter(name='value', 
                             required=True, 
                             type=str
